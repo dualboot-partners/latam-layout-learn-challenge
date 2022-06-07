@@ -21,6 +21,8 @@ img {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 980px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
 }
 
 nav {
@@ -44,8 +46,37 @@ nav a {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
 }
 
 .feature {
   width: 200px;
+  float: left;
+  margin-right: 15px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.item1 {
+  flex: auto;
+}
+
+.item2 {
+  flex: auto;
+}
+
+.item3 {
+  flex: auto;
+}
+
+.item4 {
+  flex: auto;
+}
+
+p {
+  margin-right: 10px;
 }
